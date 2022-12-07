@@ -1,5 +1,22 @@
 {
-    "scripts": {
-      "test": "jest"
-    }
-  }
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "js-example",
+  "description": "A JS example",
+  "version": "1.0.0",
+  "main": "square.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonjaramillo/js-example.git"
+  },
+  "keywords": [
+    "Example"
+  ],
+  "author": "León Jaramillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonjaramillo/js-example/issues"
+  },
+  "homepage": "https://github.com/leonjaramillo/js-example#readme"
+}
