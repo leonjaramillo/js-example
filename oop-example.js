@@ -50,20 +50,20 @@ class NightElf extends Character {
     shout = () => console.log("I'm a night elf, and my name is " + this.name + "!!!")
 }
 
-/*const aCharacter = new Character("Belisario", 10)
+const aCharacter = new Character("Belisario", 10)
 aCharacter.shout()
 console.log(aCharacter.getHealth())
 aCharacter.damage()
 console.log(aCharacter.getHealth())
 console.log(aCharacter.isAlive())
 
-const aHuman = new Human("Alexander", 15, "Africa")
+/*const aHuman = new Human("Alexander", 15, "Africa")
 aHuman.shout()
 console.log(aHuman.getHealth())
 aHuman.damage()
 console.log(aHuman.getHealth())
 console.log(aHuman.isAlive())
-aHuman.identify()*/
+aHuman.identify()
 
 const anOrc = new Orc("Mobrukk", 20, 200)
 anOrc.shout()
@@ -73,7 +73,7 @@ console.log(anOrc.getHealth())
 console.log(anOrc.isAlive())
 console.log(anOrc.weight)
 
-/*const anUndead = new Undead("Myconid", 1, 1000)
+const anUndead = new Undead("Myconid", 1, 1000)
 anUndead.shout()
 console.log(anUndead.getHealth())
 anUndead.damage()
